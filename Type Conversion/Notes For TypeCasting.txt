@@ -1,0 +1,21 @@
+1) For primitive to class typecasting, we need constructor. Without constructor we can't do primitive to class typecasting.
+
+2) For class to primitive type casting, we have casting operator concept
+
+operator type()
+{
+
+.....
+	return(type-data);
+}
+
+3) For class to class typecasting we have 2 ways:-
+	i) Conversion through constructor
+	-> if we go through this way so we have to make constructor for that class object who is left side of an assignment operator
+	e.g i1=p1;
+	so we have to make constructor for i1's class
+
+	ii) Conversion through casting operator
+	-> if we go through this way so we have to make casting operator for that class object who os right side of an assignment operator
+	e.g i1=p1;
+	so we have to make constructor for p1's class
