@@ -13,7 +13,7 @@ void bubbleSort(vector<int> v)
         {
             if (v[j] > v[j + 1])
             {
-                swap(v[j], v[j + 1])
+                swap(v[j], v[j + 1]);
                     flag = 1;
             }
         }
